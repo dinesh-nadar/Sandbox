@@ -2,7 +2,7 @@ language: java
 dist: trusty
 addons:
   sonarqube:
-    organization: "dinesh-nadar"
+    organization: "dinesh-nadar-github"
     token:
       secure: 3f3c49ac71043de5472e15b18541d725baf201ab
 script:
