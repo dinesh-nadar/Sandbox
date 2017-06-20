@@ -1,5 +1,6 @@
-package hello;
+package java;
 
+import hello.Greeter;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
