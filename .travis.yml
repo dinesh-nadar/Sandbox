@@ -17,5 +17,5 @@ after_success:
   - export PATH=$PATH:$HOME/.local/bin # put aws in the path
   - eval $(aws ecr get-login --region us-east-2) #needs AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY envvars
   - docker build -t sandbox .
-  - docker tag sandbox:latest [514752098594].dkr.ecr.us-east-1.amazonaws.com/sandbox:latest
-  - docker push [514752098594].dkr.ecr.us-east-1.amazonaws.com/sandbox:latest
+  - docker tag sandbox:latest [514752098594].dkr.ecr.us-east-2.amazonaws.com/sandbox:latest
+  - docker push [514752098594].dkr.ecr.us-east-2.amazonaws.com/sandbox:latest
